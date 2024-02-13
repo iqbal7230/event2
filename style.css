@@ -1,0 +1,99 @@
+:root {
+  --primary-color: #4CAF50;
+  --text-color: #333;
+  --font-family: sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+}
+
+#event-calendar {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#event-calendar label{
+  font-size: 20px;
+  padding: 10px;
+}
+#search-btn {
+  display: block;
+  margin: 10px;
+  font-size: 20px;
+
+}
+#event-calendar input{
+  font-size: 35px;
+  padding: 10px;
+ border-radius: 8px;
+}
+
+#search-btn {
+  background-color: var(--primary-color);
+  text-align: center;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#event-details {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#event-details h2 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#event-details p {
+  margin-bottom: 5px;
+}
+.centered {
+  margin: 0 auto;
+  text-align: center;
+}
+.centered {
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: red
+  ;
+
+}
+
+#wrapper {
+  background-image: url("Screenshot.png"); /* Replace with desired image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ensure full viewport height */
+  margin-top: 20px;
+}
+#event-calendar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#event-details{
+   background-color: rgb(132, 235, 132);
+   font-size: medium;
+}
+#id1
+{padding: 20px;
+  border-radius: 2cm;
+
+}
+*h1{
+    padding-top: 20px;
+    border-radius: 5cm;
+
+}
